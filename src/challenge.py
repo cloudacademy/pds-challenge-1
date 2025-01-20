@@ -18,6 +18,7 @@ def ocr_format(text):
     - Commas must be followed by a single space.
     - Semi-colons must be replaced with full stops.
     - Duplicate punctuation must be removed.
+    - Proper names must be capitalised.
 
     Hint: You will need to write a lookup list into your code 
           so that you can check for proper names and ensure that 
